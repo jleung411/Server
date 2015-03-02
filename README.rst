@@ -1,4 +1,4 @@
-Setup instructions:
+Server setup instructions:
 http://grokcode.com/784/how-to-setup-a-linux-nginx-uwsgi-python-django-server/
 
 Django is a high-level Python Web framework that encourages rapid development
