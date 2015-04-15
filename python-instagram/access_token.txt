@@ -1,0 +1,2 @@
+access token: 
+(u'346074560.15abe92.46f44adf9a9948d396c88571e3edc5dc', {u'username': u'flowkimonos', u'bio': u"We're a forward thinking hemp jiu-jitsu kimono company interested in competition, sustainability and community building opportunities.", u'website': u'http://bit.ly/1wJyEMH', u'profile_picture': u'https://instagramimages-a.akamaihd.net/profiles/profile_346074560_75sq_1390500399.jpg', u'full_name': u'Flow Kimonos', u'id': u'346074560'})
