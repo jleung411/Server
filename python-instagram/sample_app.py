@@ -16,7 +16,7 @@ app = beaker.middleware.SessionMiddleware(bottle.app(), session_opts)
 CONFIG = {
     'client_id': '15abe927b3f2475e80fe9aa94b796918',
     'client_secret': '42caae5b4f9747a79c34902dc1f27a72',
-    'redirect_uri': 'http://localhost:8515/oauth_callback'
+    'redirect_uri': 'http://52.10.221.128:8080/oauth_callback'
 }
 
 unauthenticated_api = client.InstagramAPI(**CONFIG)
@@ -325,4 +325,4 @@ def on_realtime_callback():
         except subscriptions.SubscriptionVerifyError:
             print("Signature mismatch")
 
-bottle.run(app=app, host='localhost', port=8515, reloader=True)
+bottle.run(app=app, host='0.0.0.0', port=8080, reloader=True)
